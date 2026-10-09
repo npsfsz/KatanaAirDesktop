@@ -1,0 +1,18 @@
+Katana Air Desktop
+SPDX-License-Identifier: GPL-3.0-or-later
+
+Parameter definitions and effect layouts are adapted from AIR FxFloorBoard.
+Upstream copyright holders: Colin Willcocks and Uco Mesdag.
+Project: https://sourceforge.net/projects/air-fxfloorboard/
+
+The upstream C++ layout files permit GNU GPL version 2 or later. The upstream
+distributed licence text is GNU GPL version 3. This derivative application is
+distributed under GNU GPL version 3 or later; see LICENSE.
+
+The upstream parameter map is preserved in source/upstream-midi.xml. The
+adapted, readable parameter definitions and layouts are in source/metadata.json.
+The Python implementation, browser interface, tests, and build instructions
+are included as source in this repository.
+
+BOSS, Roland, and KATANA are trademarks of their respective owners. No
+endorsement or affiliation is implied.

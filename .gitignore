@@ -1,0 +1,44 @@
+# Python and local development environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.build-env/
+.build/
+.pytest_cache/
+
+# Packaging output may embed local build paths
+build/
+dist/
+*.exe
+*.dll
+*.pyd
+*.spec
+*.zip
+
+# Local settings, credentials, device data, and diagnostics
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+work/
+outputs/
+diagnostics/
+captures/
+validation.json
+*baseline*.json
+*snapshot*.json
+*tone*.json
+*samples*.json
+*-url.txt
+*-error.txt
+*-log.txt
+
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
